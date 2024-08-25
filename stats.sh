@@ -10,11 +10,9 @@
 
 
 
-# Calculate the start and end dates
+# Calculate date for past year
 END_DATE=$(date -u +"%Y-%m-%d")
 START_DATE=$(date -u -d "1 year ago" +"%Y-%m-%d")
-
-# Create the directory if it does not exist
 mkdir -p calcs
 
 # PRs (5x multiplier)
@@ -75,7 +73,7 @@ awk '{print $2, $1 * 0.5}' calcs/discussion_counts.txt > calcs/discussion_weight
 cat calcs/pr_weighted.txt calcs/issue_weighted.txt calcs/commit_weighted.txt calcs/comment_weighted.txt calcs/discussion_weighted.txt | \
 awk '{arr[$1]+=$2} END {for (i in arr) print i, arr[i]}' | sort -k2 -nr > calcs/combined_scores.txt
 
-# Filter out bots and users with less than 5 contributions
+# Filter out bots and users with less than 5 contribution points
 awk '!/pre-commit-ci\[bot\]/ && !/allcontributors\[bot\]/ && !/sentry-io\[bot\]/ && $2 >= 5' calcs/combined_scores.txt > calcs/filtered_scores.txt
 
 # Calculate totals
