@@ -1,0 +1,17 @@
+    524 spwoodcock
+    162 NSUWAL123
+    101 nrjadkry
+     81 varun2948
+     58 Sujanadh
+     20 app/
+     14 robsavoye
+     13 pre-commit-ci[bot]
+      8 Prajwalism
+      5 azharcodeit
+      4 manjitapandey
+      3 rsavoye
+      3 allcontributors[bot]
+      1 petya-kangalova
+      1 khushishikhu
+      1 JoltCode
+      1 cordovez

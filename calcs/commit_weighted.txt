@@ -1,0 +1,17 @@
+spwoodcock 262
+NSUWAL123 81
+nrjadkry 50.5
+varun2948 40.5
+Sujanadh 29
+app/ 10
+robsavoye 7
+pre-commit-ci[bot] 6.5
+Prajwalism 4
+azharcodeit 2.5
+manjitapandey 2
+rsavoye 1.5
+allcontributors[bot] 1.5
+petya-kangalova 0.5
+khushishikhu 0.5
+JoltCode 0.5
+cordovez 0.5

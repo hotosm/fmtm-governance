@@ -1,0 +1,14 @@
+    165 NSUWAL123
+    127 spwoodcock
+    115 Sujanadh
+     40 nrjadkry
+     20 varun2948
+     17 pre-commit-ci[bot]
+     13 allcontributors[bot]
+     11 azharcodeit
+      3 Prajwalism
+      3 manjitapandey
+      1 khushishikhu
+      1 JoltCode
+      1 emi420
+      1 cordovez
