@@ -20,6 +20,7 @@ This is work in progress and subject to change.
 
 ## Current Stats (2024-08-24)
 
+```bash
 spwoodcock 37.21
 NSUWAL123 23.85
 Sujanadh 17.36
@@ -29,6 +30,7 @@ varun2948 4.63
 susmina94 2.03
 azharcodeit 1.44
 robsavoye 1.18
+```
 
 The weightings above break down by organisation to:
 - 37% HOT
