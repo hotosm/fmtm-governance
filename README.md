@@ -36,3 +36,20 @@ The weightings above break down by organisation to:
 - 37% HOT
 - 61% NAXA (contracted by HOT)
 - 2% independent
+
+## Installing the Github CLI
+
+- The `stats.sh` script requires the `gh` command line tool:
+
+```bash
+curl -LO https://github.com/cli/cli/releases/download/v2.55.0/gh_2.55.0_linux_amd64.tar.gz
+tar -xvzf gh_2.55.0_linux_amd64.tar.gz
+rm -rf gh_2.55.0_linux_amd64.tar.gz
+mv gh_2.55.0_linux_amd64/bin/gh .
+rm -rf gh_2.55.0_linux_amd64
+
+# Login to the CLI
+./gh auth login
+```
+
+> Note this script can likely be ran via gh actions with GITHUB_TOKEN as auth.
